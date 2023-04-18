@@ -1,0 +1,149 @@
+* {
+    background-color: #E8E8E8;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* navbar */
+.thisIsNav ul {
+    margin-right: 1rem;
+    max-width: auto;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.thisIsNav li{
+    list-style: none;
+}
+
+.thisIsNav a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+/* Home page */
+.mainDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.change-button {
+    align-items: center;
+    text-align: center;
+}
+
+.change-button button {
+    align-items: center; 
+    margin: 30px 30px;
+    padding: 30px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; 
+    background-color: #c4c4c4;
+    border-color: black;
+    cursor: pointer;
+}
+
+.change-button button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Input */
+.all-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+input[type=text] {
+    margin: 0rem 2rem;
+    padding: 0rem 0.5rem;
+    width: 20%;
+    height: 2rem;
+    border-radius: 8px;
+}
+
+form button {
+    align-items: center; 
+    margin: 5px 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; 
+    background-color: #c4c4c4;
+    border-color: black;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+/* Table */
+table, td, th {
+    border: 1px solid;
+    height: 3rem;
+    width: 3rem;
+}
+  
+table {
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-user,
+.table-admin {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Delete Button */
+
+#delete-button {
+    align-items: center;
+    border-radius: 3px;
+    color: red;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; 
+    background-color: #c4c4c4;
+    border-color: black;
+    cursor: pointer; 
+}
+
+#delete-button:hover {
+    background-color: red;
+    color: black; 
+}
+
+/* Owner page */
+.myInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myInfo img {
+    width: 300px;
+}
+
+.myInfo p {
+    max-width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
